@@ -7,8 +7,41 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #0008;
+}
+
+.header,
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  padding-right: 20px;
+}
+
+.left-links,
+.right-links{
+  display: flex;
+  gap: 30px;
+}
+
 img {
   width: 600px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 90px;
+  gap:15px;
 }
 
 button {
@@ -16,6 +49,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px 15px;
+  margin-top: 15px;
 }
 
 input {
@@ -23,4 +58,8 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+.footer{
+  background-color: #eeeeee;
 }
